@@ -70,5 +70,10 @@ tidy_data <- full_data %>%
         summarise(across(everything(), mean, .names = "Mean of {.col}")) %>%
         ungroup()
 
+# Check if Output folder exists; create it if it doesn’t
+if (!dir.exists("Output")) {
+        dir.create("Output")
+}
+
 # The new dataset is then outputted to a file as instructed.
 write.table(tidy_data, "Output/tidy_dataset.txt", row.name = FALSE)

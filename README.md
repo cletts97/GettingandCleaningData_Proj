@@ -63,6 +63,5 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 - **Date**: 05/03/2025
 
 ### Notes
-- Ensure the `Output/` folder exists in your working directory, or modify the script’s `write.table()` path if needed.
 - Full details about the dataset and transformations are in `CodeBook.md`.
 - For more information on the original dataset, see [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
